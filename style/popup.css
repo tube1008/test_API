@@ -1,0 +1,25 @@
+body {background: lightsalmon;}
+#notice_wrap {
+    text-align: center;
+    position: relative;
+}
+#notice_wrap .closeWrap {
+    width: 500px; margin: 0 auto;
+    border: 3px solid #fff;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: center;
+    position: absolute;
+    left: 35%; top: 400px;
+}
+#notice_wrap .closeWrap #chk {}
+#notice_wrap .closeWrap label {
+    font-size: 1.25rem;
+    color: #fff; font-weight: 600;
+    padding: 0 5px;
+}
+#notice_wrap .closeWrap .closeBtn {
+    background: lightcoral;
+    padding: 5px 10px;
+}
